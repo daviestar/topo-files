@@ -1,0 +1,21 @@
+{
+  "name": "topo-files",
+  "version": "0.0.1",
+  "author": "Dave Star <daviestar@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "topo-files": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "ava --verbose --fail-fast --watch"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "toposort": "^2.0.2"
+  },
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "eslint": "^6.6.0"
+  }
+}
