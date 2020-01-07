@@ -1,0 +1,11 @@
+CREATE TABLE foo(
+  col1 INTEGER,
+  col2 INTEGER,
+  col3 INTEGER
+  col4 INTEGER,
+  col5 INTEGER,
+  col6 INTEGER,
+  col7 INTEGER,
+  col8 INTEGER,
+  col9 INTEGER
+);

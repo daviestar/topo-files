@@ -1,0 +1,20 @@
+{
+  "name": "sql-modules",
+  "version": "0.0.1",
+  "author": "Dave Star <daviestar@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "ava --verbose"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "pg-error-snippet": "0.0.1",
+    "topo-files": "0.0.1"
+  },
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "pg": "^7.14.0"
+  }
+}

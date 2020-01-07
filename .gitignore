@@ -1,3 +1,4 @@
 node_modules/
 sql/
+_sql/
 output.sql
