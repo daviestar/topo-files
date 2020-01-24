@@ -1,13 +1,19 @@
 {
   "name": "topo-files",
-  "private": true,
-  "workspaces": [
-    "topo-sort",
-    "topo-files",
-    "sql-modules",
-    "pg-error-snippet"
-  ],
+  "version": "0.0.1",
+  "author": "Dave Star <daviestar@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "bin": {
+    "topo-files": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
   "devDependencies": {
-    "eslint": "^6.6.0"
+    "ava": "^2.4.0"
   }
 }
